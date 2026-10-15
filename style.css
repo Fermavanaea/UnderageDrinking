@@ -64,7 +64,6 @@ body{
 .heading{
     grid-area: heading;
     text-align: center;
-   
     padding: 25px 20px 20px;
 }
 
@@ -72,7 +71,7 @@ body{
     margin: 0;
     color: #274C77;
     font-size: 30px;
-    text-decoration: underline;
+
 }
 
 .text_1 {
