@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona Test - Better Tomorrow NZ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="effects.html">Effects</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+        </div>
+
+        <div class="heading">
+            <h1>BETTER TOMORROW NEW ZEALAND</h1>
+            <h2>PERSONA TEST</h2>
+            <p>Answer these questions to discover your alcohol awareness persona.</p>
+        </div>
+
+        <div class="quiz">
+
+            <form id="personaForm">
+
+                <div class="question">
+                    <h3>1. If someone offers you alcohol, what would you do?</h3>
+                    <label><input type="radio" name="q1" value="A" required> Politely say no.</label>
+                    <label><input type="radio" name="q1" value="B"> Encourage them to do something else.</label>
+                    <label><input type="radio" name="q1" value="C"> Find it difficult to say no.</label>
+                </div>
+
+                <div class="question">
+                    <h3>2. How much do you know about the effects of alcohol?</h3>
+                    <label><input type="radio" name="q2" value="A" required> I understand the risks.</label>
+                    <label><input type="radio" name="q2" value="B"> I know the risks and educate others.</label>
+                    <label><input type="radio" name="q2" value="C"> I want to learn more.</label>
+                </div>
+
+                <div class="question">
+                    <h3>3. What would you do if your friends pressured you to drink?</h3>
+                    <label><input type="radio" name="q3" value="A" required> Stick to my decision.</label>
+                    <label><input type="radio" name="q3" value="B"> Help my friends make safer choices.</label>
+                    <label><input type="radio" name="q3" value="C"> Feel unsure about what to do.</label>
+                </div>
+
+                <div class="question">
+                    <h3>4. Where would you find reliable information about alcohol?</h3>
+                    <label><input type="radio" name="q4" value="A" required> A trusted website or adult.</label>
+                    <label><input type="radio" name="q4" value="B"> A health professional or support service.</label>
+                    <label><input type="radio" name="q4" value="C"> I am not sure where to look.</label>
+                </div>
+
+                <div class="question">
+                    <h3>5. What is most important to you?</h3>
+                    <label><input type="radio" name="q5" value="A" required> Making informed decisions.</label>
+                    <label><input type="radio" name="q5" value="B"> Helping others understand the risks.</label>
+                    <label><input type="radio" name="q5" value="C"> Building my knowledge and confidence.</label>
+                </div>
+
+                <button type="submit">SUBMIT MY ANSWERS</button>
+
+            </form>
+
+            <div id="result" class="result" hidden>
+                <h2 id="resultTitle"></h2>
+                <p id="resultDescription"></p>
+                <button type="button" id="retryButton">TAKE TEST AGAIN</button>
+            </div>
+            
+    </div>
+
+    <script src="persona.js"></script>
+</body>
+</html>
