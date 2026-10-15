@@ -164,6 +164,123 @@ body{
 
 
 img{
+    text-align: center;
     width: 400px;
     height: auto;
+}
+
+
+
+body:has(#personaForm) {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #e8eef3;
+    color: #28517d;
+    font-family: Arial, sans-serif;
+}
+
+
+body:has(#personaForm) .navbar {
+    background-color: #28517d;
+    padding: 15px 25px;
+}
+
+
+body:has(#personaForm) .heading {
+    text-align: center;
+    margin: 35px auto 25px;
+    padding: 0 15px;
+}
+
+body:has(#personaForm) .heading h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+body:has(#personaForm) .heading h2 {
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+body:has(#personaForm) .heading p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+body:has(#personaForm) .quiz {
+    width: 90%;
+    max-width: 850px;
+    margin: 30px auto 50px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body:has(#personaForm) .question {
+    background-color: white;
+    border: 1px solid #c6d5e3;
+    border-left: 5px solid #28517d;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+
+body:has(#personaForm) .question h3 {
+    color: #28517d;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 18px;
+}
+
+body:has(#personaForm) .question label {
+    display: block;
+    margin: 13px 0;
+    line-height: 1.6;
+    color: #33475b;
+    cursor: pointer;
+}
+
+body:has(#personaForm) .question input[type="radio"] {
+    margin-right: 8px;
+    accent-color: #28517d;
+}
+
+
+body:has(#personaForm) #personaForm button {
+    display: block;
+    margin: 30px auto;
+    padding: 13px 28px;
+    background-color: #28517d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+body:has(#personaForm) #personaForm button:hover {
+    background-color: #193a5c;
+}
+
+
+body:has(#personaForm) .result {
+    max-width: 850px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+body:has(#personaForm) footer {
+    text-align: center;
+    padding: 20px;
 }
